@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+body {
+    background-color:  #f7f7f7;
+}
 
 .ulbar {
     margin-top: -6%;
@@ -21,7 +24,7 @@
     position: relative;
 }
 .search input {
-    background-color: #dfdfdfc5;
+    background-color: #eaeaea;
     width: 99%;
     padding: 5%;
     text-align: center;
@@ -52,8 +55,8 @@
 
 .reserve p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: 25px;
-    text-align: center;
+    margin-right: 86px;
+        text-align: center;
 }
 
 
@@ -63,24 +66,32 @@
 
 }
 .explore .explorer {
-	background:linear-gradient(to bottom, #b800b8 5%, #8f008f 100%);
-	background-color:#b800b8;
+    background: linear-gradient(356.33deg, #9356DC -11.44%, #FF79DA 123.93%);	background-color:#b800b8;
 	border-radius:38px;
-	border:1px solid #f266cd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-size:25px;
+	font-size:20px;
 	padding:17px 20px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #8f008f;
 }
 
 .fonctionnement {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 15%;
     padding-left: 5%;
+}
+
+.restaurant:hover {
+ color: #9356DC;
+}
+.restaurant2:hover {
+ color: #9356DC;
+}
+.restaurant3:hover {
+  color: #9356DC;   
 }
 
 .restaurant {
@@ -124,8 +135,42 @@
 }
 
 .restaup {
-	background-color:#600285;
-	border-radius:38px;
+    background: #9356DC;
+    	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    position: absolute;
+    margin-top: -78%;
+    margin-left: 7%;
+
+}
+.restaup2 {
+    background: #9356DC;
+    	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 7%;
+
+}
+.restaup3 {
+    background: #9356DC;
+    	border-radius:38px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -150,25 +195,29 @@
 
 .restaubottom{
     width: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    background: #F7F7F7;
+
 }
 .card {
     text-decoration: none;
     list-style: none;
     color: #000000;
     background-color: transparent;
-    
+    border: 21px;
+    height: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 
 }
 .cardimg {
     text-decoration: none;
     list-style: none;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 95%;
-    border-radius: 30px;
-
+    padding: 5px;
+    width: 90%;
+    margin-top: 35px;
+    border: 21px;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .imgrestau1 {
@@ -180,10 +229,8 @@
 }
 
 .imgrestau1 img {
-    width: 90%;
-    padding-left: 5%;
+    width: 100%;
     height: 305px;
-    padding-bottom: 15px;
     border-radius: 15px;
 
 }
@@ -387,13 +434,19 @@
 
 @media screen and (min-width:1024px) {
     .search input {
-        background-color: #dfdfdfc5;
+        background-color: #eaeaea;
         width: 99%;
         padding: 2%;
         text-align: center;
         overflow: hidden;
         border: 0;
         box-shadow: inset 0px 10px 8px -3px #0000004d;
+    }
+    .search i {
+        position: absolute;
+        top: 40%;
+        padding-left: 45%;
+    
     }
     .bar h1 {
         padding: 10px;
@@ -432,9 +485,49 @@ margin-top: 15%;
         margin-top: -4.2%;
         margin-left: 8%;
     }
+    .restaup1 {
+        display: flex;
+        margin-top: -4.2%;
+        margin-left: 8%;
+    }
+    .restaup2 {
+        display: flex;
+        margin-top: -4.2%;
+        margin-left: 8%;
+    }
 
     .global {
         display: flex;
         width: 100%;
+        margin-left: -65px;
+    }
+
+    .restaubottom {
+        background: #F7F7F7;
+        display: flex;
+    }
+
+    .restaubottom img{
+        display: flex;
+        height: 100%;
+    }
+    footer {
+        display: flex;
+    }
+
+    .restauranttop {
+        background: #F7F7F7;
+        width: 50%;
+        
+    }
+    .restauranttop img {
+        height: 250px;
+    }
+    .restaurantbottom {
+        width: 50%;
+         
+    }
+    .restaurantbottom img {
+        height: 250px;
     }
 }
