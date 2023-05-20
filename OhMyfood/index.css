@@ -13,9 +13,11 @@ body {
     margin-top: -6%;
 }
 
-.bar h1 {
-    font-family: 'Shrikhand';
-    text-align: center;
+.bar img {
+    width: 50%;
+margin-left: 100px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 
