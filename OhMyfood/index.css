@@ -28,7 +28,7 @@ padding-bottom: 15px;
 .search input {
     background-color: #eaeaea;
     width: 99%;
-    padding: 5%;
+    padding: 15px;
     text-align: center;
     overflow: hidden;
     border: 0;
@@ -640,11 +640,13 @@ font-size: medium;
 
 @media screen and (min-width:767.1px) {
  .bar img {
-    margin-left: 25%;
+    width: 20%;
+    margin-left: 40%;
  }
  .search i {
     margin-left: 120px;
-    margin-top: 10px;
+    margin-top: 1px;
+
  }
  .reserve h1{
     font-size: xx-large;
@@ -688,6 +690,93 @@ font-size: medium;
     text-align: center;
     align-items: center;
 }
+
+.card {
+    width: 98%;
+}
+
+.card-txt span i {
+    position: absolute;
+    margin-left: 731px;
+    color: #000;
+    font-size: 35px;
+    margin-top: -45px;
+}
+.card-txt2 span i {
+    position: absolute;
+    margin-left: -86px;
+    color: #000;
+    font-size: 35px;
+    margin-top: -45px;
+}
+.card-txt3 span i {
+    position: absolute;
+    margin-left: 731px;
+    color: #000;
+    font-size: 35px;
+    margin-top: -45px;
+}
+.card-txt4 span i {
+    position: absolute;
+    margin-left: -86px;
+        color: #000;
+    font-size: 35px;
+    margin-top: -45px;
+}
+
+.topcard {
+    display: flex;
+}
+
+.bottomcard {
+    display: flex;
+    margin-top: 50px;
+}
+
+.restaucard {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 95%;
+    height: 100%;
+    padding-top: 17px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 9px;
+}
+}
+
+.restaucard2 {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 95%;
+    height: 230px;
+    padding-top: 17px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 9px;
+}
+
+.restaucard3 {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 95%;
+    height: 230px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 9px;
+}
+
+.restaucard4 {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 95%;
+    height: 230px;
+    border: 1px;
+    border-radius: 15px;
+    margin-left: 9px;
+}
+.new {
+    margin-left: 300px;
 }
 
 @media screen and (min-width: 1024px) {
