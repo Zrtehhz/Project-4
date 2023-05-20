@@ -638,102 +638,58 @@ font-size: medium;
     padding-right: 15px;
 }
 
-@media screen and (min-width:1024px) {
-    .search input {
-        background-color: #eaeaea;
-        width: 99%;
-        padding: 2%;
-        text-align: center;
-        overflow: hidden;
-        border: 0;
-        box-shadow: inset 0px 10px 8px -3px #0000004d;
-    }
-    .search i {
-        position: absolute;
-        top: 40%;
-        padding-left: 45%;
+@media screen and (min-width:767.1px) {
+ .bar img {
+    margin-left: 25%;
+ }
+ .search i {
+    margin-left: 120px;
+    margin-top: 10px;
+ }
+ .reserve h1{
+    font-size: xx-large;
+ }
+ .reserve p {
+    font-size: medium;
+ }
+ .restaup {
+    margin-top: -615px;
+    margin-left: 67px;
+ }
+
+ .restaup2 {
+    margin-top: -345px;
+    margin-left: 67px;
+ }
+
+ .restaup3 {
+    margin-top: -85px;
+    margin-left: 67px;
+ }
+ .global {
+    width: 100%;
+ }
+
+.buttonrestaurant1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.buttonrestaurant2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.buttonrestaurant3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+}
+
+@media screen and (min-width: 1024px) {
     
-    }
-    .bar h1 {
-        padding: 10px;
-    }
-
-    .explore {
-        padding-top: 6%;
-    }
-
-    .restaurant {
-        display: flex;
-        width: 21%;
-        padding: 2%;
-margin-top: 15%;
-        width: 100%;
-
-    }
-    .restaurant2 {
-        display: flex;
-        width: 21%;
-        padding: 2%;
-margin-top: 15%;
-        width: 100%;
-
-    }
-    .restaurant3 {
-        display: flex;
-        width: 21%;
-        padding: 2%;
-margin-top: 15%;
-        width: 100%;
-
-    }
-    .restaup {
-        display: flex;
-        margin-top: -4.2%;
-        margin-left: 8%;
-    }
-    .restaup1 {
-        display: flex;
-        margin-top: -4.2%;
-        margin-left: 8%;
-    }
-    .restaup2 {
-        display: flex;
-        margin-top: -4.2%;
-        margin-left: 8%;
-    }
-
-    .global {
-        display: flex;
-        width: 100%;
-        margin-left: -65px;
-    }
-
-    .restaubottom {
-        background: #F7F7F7;
-        display: flex;
-    }
-
-    .restaubottom img{
-        display: flex;
-        height: 100%;
-    }
-    footer {
-        display: flex;
-    }
-
-    .restauranttop {
-        background: #F7F7F7;
-        width: 50%;
-        
-    }
-    .restauranttop img {
-        height: 250px;
-    }
-    .restaurantbottom {
-        width: 50%;
-         
-    }
-    .restaurantbottom img {
-        height: 250px;
-    }
 }
