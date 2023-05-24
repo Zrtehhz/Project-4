@@ -21,13 +21,20 @@
 .ulbar i {
     line-height: 100px;
     display: flex;
-    margin-left: 41px;
-    text-decoration: none;
+    margin-left: 205px;
+        text-decoration: none;
     list-style: none;
     color: #000;
     width: 10%;
     margin-right: 15px;
     font-size: xx-large;
+}
+
+.ulimg {
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bar {
@@ -38,26 +45,26 @@
 
 
 .bar img {
-    font-family: 'Shrikhand';
-    padding: 15px;
+    padding: 23px;
     display: flex;
+    justify-content: center;
     width: 50%;
 }
 
 
 
-.img {
+.img img{
     width: 100%;
-}
+    height: 12rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-object-fit: cover;
+    object-fit: cover;}
 
-.img img {
-    width: 100%;
-    height: 50%;
-    
-}
+
 .articlepalette {
     padding-top: 15px;
-    margin-top: -4rem;
+    margin-top: -5rem;
     border-radius: 2rem 2rem 0 0;
     background-color: #F7F7F7;
     z-index: 1;
@@ -107,22 +114,10 @@ h1 {
     padding: 15px;
     padding-right: 5px;
     border-radius: 15px;
+    animation-delay: 0s;
 }
 
-.topAhover:hover {
-    background-color: green;
-    width: 3%;
-    text-align: center;
-    display: flex;
-    justify-content: end;
-    padding: 28px;
-    margin-top: -54px;
-    margin-left: 74.3%;
-    position: absolute;
-    border-radius: 15px;
-    border: 2px  ;
 
-}
 
 .topA p, h3  {
     font-size: medium;
@@ -188,6 +183,7 @@ h1 {
     padding-top: 15px;
     padding-bottom: 20px;
     border-radius: 15px;
+    animation-delay: 0.1s;
 }
 
 .topB p {
@@ -212,6 +208,7 @@ h1 {
     padding-top: 15px;
     padding-bottom: 20px;
     border-radius: 15px;
+    animation-delay: 0.3s;
 }
 
 .topC p {
@@ -569,7 +566,6 @@ h1 {
 }
 
 .ulbar i {
-    padding-top: 15px;
     width: 15%;
     color: #000;
     text-decoration: none;
