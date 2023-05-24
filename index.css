@@ -29,22 +29,7 @@ position: relative;    display: flex;
     align-items: center;
 }
 
-.search input {
-    background-color: #eaeaea;
-    width: 99%;
-    padding: 15px;
-    text-align: center;
-    overflow: hidden;
-    border: 0;
-    box-shadow: rgb(0 0 0 / 5%) 0px 10px 8px -3px inset;
-    padding-left: 25px;
 
-}
-.search input::placeholder{
-    color: black;
-    opacity: 1;
-    font-size: large;
-}
 
 .new {
     position: absolute;
@@ -52,7 +37,7 @@ position: relative;    display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 5px;
     border-radius: 5px;
-    margin-left: 80%;
+    margin-left: 70%;
     color: #008766;
 }
 
@@ -64,6 +49,16 @@ position: relative;    display: flex;
     box-shadow: none;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.barimgnav {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 
  .topcard .restaucard2 img {
@@ -78,8 +73,8 @@ position: relative;    display: flex;
 
 .iconecard1 {
     display: flex;
-    position: absolute;
-    margin-left: 750px;
+    padding-right: 15px;
+    justify-content: end;
     margin-top: -55px;
     font-size: 50px;
     color: black;
@@ -87,8 +82,8 @@ position: relative;    display: flex;
 }
 .iconecard2 {
     display: flex;
-    position: absolute;
-    margin-left: 750px;
+    padding-right: 15px;
+    justify-content: end;
     margin-top: -55px;
     font-size: 50px;
     color: black;
@@ -96,8 +91,8 @@ position: relative;    display: flex;
 }
 .iconecard3 {
     display: flex;
-    position: absolute;
-    margin-left: 750px;
+    padding-right: 15px;
+    justify-content: end;
     margin-top: -55px;
     font-size: 50px;
     color: black;
@@ -105,8 +100,8 @@ position: relative;    display: flex;
 }
 .iconecard4 {
     display: flex;
-    position: absolute;
-    margin-left: 750px;
+    padding-right: 15px;
+    justify-content: end;
     margin-top: -55px;
     font-size: 50px;
     color: black;
@@ -137,6 +132,13 @@ position: relative;    display: flex;
     -o-object-fit: cover;
     object-fit: cover;
 }
+
+.global {
+    display: block;
+    padding-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+}
 .bottomcard .restaucard4 img {
     width: 100%;
     height: 12rem;
@@ -149,34 +151,41 @@ position: relative;    display: flex;
 
 
 .topcard {
-    display: flex;
+    display: block;
 
 
 
 
 }
 .bottomcard {
-    display: flex;
+    display: block;
 
 
 }
 .icone {
+    background-color: #eaeaea;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
     display: flex;
+    justify-content: center;
+    gap: 15px;
     width: 100%;
 margin-left: auto;
 margin-right: auto;
 }
 
 .buttonfonctionnement {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     gap: 15px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;    width: 205px;
+    margin-bottom: 24px;
+    width: 100%;
     padding: 15px;
     border: 1;
     border-radius: 15px;
@@ -769,8 +778,7 @@ font-size: large;
         padding-top: 15px;
         width: 95.3%;
         background-color: #ffffff;
-
-        padding: 45px;
+        /* padding: 0px;*/
     }
     .restaurant {
     width: 30%;
@@ -793,6 +801,37 @@ font-size: large;
     display: flex;
     justify-content: center;
     text-align: center;
+    }
+    .iconecard1 {
+        display: flex;
+        padding-right: 15px;
+        margin-top: -55px;
+        font-size: 50px;
+        color: black;
+    
+    }
+    .iconecard2 {
+        display: flex;
+        padding-right: 15px;
+        margin-top: -55px;
+        font-size: 50px;
+        color: black;
+    
+    }
+    .iconecard3 {
+        display: flex;
+        padding-right: 15px;
+        margin-top: -55px;
+        font-size: 50px;
+        color: black;
+    
+    }
+    .iconecard4 {
+        display: flex;
+        padding-right: 15px;
+        margin-top: -55px;
+        font-size: 50px;
+        color: black;
     }
     .restaurant3 {
     width: 30%;
@@ -860,7 +899,7 @@ font-size: large;
         display: flex;
         justify-content: center;
         margin-top: 15px;
-        margin-left: 700px;
+        margin-left: 400px;
     }
 
     .footer-logo {
@@ -878,12 +917,14 @@ font-size: large;
     }
 
     .topcard {
+        width: 100%;
         display: flex;
         gap: 25px;
         margin-bottom: 45px;
 
     }
     .bottomcard {
+        width: 100%;
         display: flex;
         gap: 25px;
     }
@@ -940,5 +981,4 @@ font-size: large;
     margin-right: auto;
     }
     
-
 }
