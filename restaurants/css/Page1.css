@@ -85,7 +85,7 @@
 }
 
 
-.articlepalette i:hover {
+.articlepalette .linkpalette i:hover {
     -webkit-background-clip: text;
     font-weight: 900;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -368,7 +368,7 @@ h1 {
     padding-bottom: 20px;
     border-radius: 15px;
     font-weight: 200;
-    width: 99%;
+    width: 98%;
 
 }
 
@@ -411,32 +411,81 @@ h1 {
 .divtop {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
     
 }
 
 .divmiddle {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 .divbottom {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 
 
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 
 
 
 
+.check {
+    background: #99e2d0;
+    margin: -1px -5px -1px 1px;
+    width: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.check_icon {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 100px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
 
 
-
-
-
-
+.check .check_icon i {
+    color: #99e2d0;
+}
 
 
 
@@ -533,7 +582,7 @@ h1 {
 
     
     .bottomC {
-        width: 98%;
+        width: 98.5%;
     }
     .hr {width: 2%;
     }
