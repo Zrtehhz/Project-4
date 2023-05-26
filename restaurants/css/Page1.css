@@ -429,7 +429,7 @@ h1 {
     position: absolute;
     margin-top: -47px;
     width: 10px;
-    margin-left: 730px;
+    margin-right: 70px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: -webkit-box;
@@ -465,7 +465,7 @@ h1 {
         padding: 23px;
         margin-top: -47px;
         width: 1%;
-        margin-left: 600px;
+        margin-right: 70px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         display: -webkit-box;
@@ -684,7 +684,7 @@ h1 {
         position: absolute;
         margin-top: -47px;
         width: 10px;
-        margin-left: 730px;
+        margin-right: 70px;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         display: -webkit-box;
@@ -721,7 +721,7 @@ h1 {
             position: absolute;
             margin-top: -47px;
             width: 10px;
-            margin-left: 722px;
+            margin-right: 70px;
             border-top-right-radius: 15px;
             border-bottom-right-radius: 15px;
             display: -webkit-box;

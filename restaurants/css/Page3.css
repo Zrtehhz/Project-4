@@ -414,18 +414,38 @@ h1 {
 .divtop {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
     
 }
 
 .divmiddle {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
 }
 
 .divbottom {
     padding-top: 5%;
     width: 100%;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out forwards;
 }
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 
 
 
