@@ -391,6 +391,7 @@ h1 {
     
 }
 
+
 .divmiddle {
     padding-top: 5%;
     width: 100%;
@@ -423,26 +424,11 @@ h1 {
 
 
 .check {
-    visibility: hidden;
-    background: #99e2d0;
-    padding: 23px;
+
     position: absolute;
-    margin-top: -47px;
-    width: 10px;
-    margin-right: 70px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-transition-duration: .5s;
-    transition-duration: 700ms;
+    background-color: #99E2D0;
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -459,88 +445,7 @@ h1 {
     }
 
     .check {
-        animation: fadeIn 1.2s ease-in-out forwards;
-        visibility: visible;
-        background: #99e2d0;
-        padding: 23px;
-        margin-top: -47px;
-        width: 1%;
-        margin-right: 70px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition-duration: .5s;
-        transition-duration: .5s;
-    } 
-}
-.topB:hover {
 
-    .price {
-        animation: fadeIn 1s ease-in-out forwards;
-        margin-right: 70px;
-    }
-
-    .check {
-        animation: fadeIn 1.2s ease-in-out forwards;
-        visibility: visible;
-        background: #99e2d0;
-        padding: 25px;
-        position: absolute;
-        margin-top: -47px;
-        width: 10px;
-        margin-left: 735px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition-duration: .5s;
-        transition-duration: .5s;
-    } 
-}
-.topC:hover {
-
-    .price {
-        animation: fadeIn 1s ease-in-out forwards;
-        margin-right: 70px;
-    }
-
-    .check {
-        animation: fadeIn 1.2s ease-in-out forwards;
-        visibility: visible;
-        background: #99e2d0;
-        padding: 25px;
-        position: absolute;
-        margin-top: -47px;
-        width: 10px;
-        margin-left: 735px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition-duration: .5s;
-        transition-duration: .5s;
     } 
 }
 
@@ -677,34 +582,7 @@ h1 {
     
     
     
-    .check {
-        visibility: hidden;
-        background: #99e2d0;
-        padding: 23px;
-        position: absolute;
-        margin-top: -47px;
-        width: 10px;
-        margin-right: 70px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -webkit-transition-duration: .5s;
-        transition-duration: .5s;
-    }
-    
-    
-    .check i {
-        color: #ffffff;
-        font-size: large;
-    }
+
     
     .topA:hover {
     
@@ -713,29 +591,7 @@ h1 {
             margin-right: 70px;
         }
     
-        .check {
-            animation: fadeIn 1.2s ease-in-out forwards;
-            visibility: visible;
-            background: #99e2d0;
-            padding: 23px;
-            position: absolute;
-            margin-top: -47px;
-            width: 10px;
-            margin-right: 70px;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            -webkit-transition-duration: .5s;
-            transition-duration: .5s;
-        } 
+
     }
 
     
