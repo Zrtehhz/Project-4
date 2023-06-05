@@ -403,6 +403,8 @@ h1 {
     width: 100%;
     opacity: 0;
     animation: fadeIn 3s ease-in-out forwards;
+    padding-bottom: 25px;    
+
 }
 
 
