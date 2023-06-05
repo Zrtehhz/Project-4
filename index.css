@@ -460,7 +460,14 @@ opacity: 1;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-text-fill-color: transparent;
     transition: 1s linear;
-    opacity: 1;
+    opacity: 0;
+    animation: FadeOut 3s forwards;
+}
+
+@keyframes FadeOut {
+    to {
+        opacity: 1;
+    }
 }
 
 
@@ -536,11 +543,19 @@ display: flex;
 }
 
 .card-txt2 i:hover {
-
     -webkit-background-clip: text;
     font-weight: 700;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-text-fill-color: transparent;
+    transition: 1s linear;
+    opacity: 0;
+    animation: FadeOut 3s forwards;
+}
+
+@keyframes FadeOut {
+    to {
+        opacity: 1;
+    }
 }
     
 .card-title2 {
@@ -619,11 +634,19 @@ display: flex;
 }
 
 .card-txt3 i:hover {
-
     -webkit-background-clip: text;
     font-weight: 700;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-text-fill-color: transparent;
+    transition: 1s linear;
+    opacity: 0;
+    animation: FadeOut 3s forwards;
+}
+
+@keyframes FadeOut {
+    to {
+        opacity: 1;
+    }
 }
     
 .card-title3 {
@@ -702,13 +725,20 @@ font-size: large;
 display: flex;
 
 }
-
 .card-txt4 i:hover {
-
     -webkit-background-clip: text;
     font-weight: 700;
     background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     -webkit-text-fill-color: transparent;
+    transition: 1s linear;
+    opacity: 0;
+    animation: FadeOut 3s forwards;
+}
+
+@keyframes FadeOut {
+    to {
+        opacity: 1;
+    }
 }
     
 .card-title4 {
