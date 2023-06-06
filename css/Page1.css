@@ -9,9 +9,10 @@
 
 .ulbar i {
 
-    margin-top: 17px;
+    margin-top: 10px;
     margin-left: 30px;
     position: absolute;
+    color: #000;
 
 }
 
@@ -22,6 +23,11 @@
     justify-content: center;
 }
 
+
+.ulimg img {
+    padding: 10px;
+    width: 20%;
+}
 
 
 
@@ -61,10 +67,18 @@
 
 
 .articlepalette .linkpalette i:hover {
-    -webkit-background-clip: text;
-    font-weight: 900;
-    background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-    -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 700;
+        background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+        -webkit-text-fill-color: transparent;
+        transition: 1s linear;
+        opacity: 0;
+        animation: FadeOut 3s forwards; 
+}
+@keyframes FadeOut {
+    to {
+        opacity: 1;
+    }
 }
 h1 {
     margin-left: 71px;
@@ -75,7 +89,18 @@ h1 {
     border-radius: 50%;
 }
 
+/**************/
+.check {
 
+}
+
+
+
+
+
+
+
+/*************/
 
 .hr {
     width: 10%;
@@ -573,7 +598,20 @@ h1 {
     
 
     }
+    .ulbar i {
 
+        margin-top: 23px;
+        margin-left: 30px;
+        position: absolute;
+    
+    }
+    
+    .ulimg {
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     
 .command {
     display: flex;
