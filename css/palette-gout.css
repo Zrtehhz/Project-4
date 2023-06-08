@@ -101,17 +101,14 @@ h1 {
     top: 0px;
     visibility: hidden;
     color: white;
+    transition: 1s linear;
     animation: FadeOutCheck 3s forwards; 
-
 }
 
 @keyframes FadOutCheck {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100%{
-        transform: rotate(360deg);
+    to{
+        transition:right 3s ease-in-out 0.5s;
     }
 
 }
@@ -146,18 +143,20 @@ h1 {
         top: 15px;
         position: absolute;
         right: 70px;
-    }
+        transition-timing-function: ease-in-out;    }
 
 
     .check {
         visibility: visible;
         right: 0px;
-
+        transition-timing-function: ease-in-out;
     }
 
 
 
 }
+
+
 
 /*************/
 
