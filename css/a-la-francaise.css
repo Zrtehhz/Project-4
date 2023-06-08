@@ -106,51 +106,16 @@ h1 {
     animation-delay: 0s;
 }
 
+.menu {}
 
 
-.topA p, h3  {
+.menu p, h3  {
     font-size: medium;
     width: 85%;
 }
 
 
-.topB p, h3  {
-    font-size: medium;
-    width: 85%;
-}
-.topC p, h3  {
-    font-size: medium;
-    width: 85%;
-}
-
-.middleA p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.middleB p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.middleC p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-
-.bottomA p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.bottomB p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.bottomC p, h3 {
-    font-size: medium;
-    width: 97%;
-}
-
-
-.topA p {
+.topA  p {
     display: flex;
         font-size: smaller;
 
