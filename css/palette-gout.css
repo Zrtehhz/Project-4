@@ -92,13 +92,72 @@ h1 {
 /**************/
 .check {
 
+    background: #99E2D0;
+    position: absolute;
+    padding: 24px;
+    right: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 0px;
+    visibility: hidden;
+    color: white;
+    animation: FadeOutCheck 3s forwards; 
+
+}
+
+@keyframes FadOutCheck {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+.menu {
+    display: flex;
+    position: relative;
+}
+
+.title {
+    width: 80%;
+}
+.price {
+    margin-top: 7px;
+        width: 20%;
+    text-align: right;
 }
 
 
+.menu span {
+    font-weight: 700;
+}
+
+
+.topA:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+    }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+
+    }
 
 
 
-
+}
 
 /*************/
 
@@ -167,14 +226,6 @@ h1 {
 
 }
 
-.topA span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-    font-weight: 700;
-        line-height: 15px;
-}
 .topB {
     border: 2px  ;
     margin-top: 15px;
@@ -589,15 +640,6 @@ h1 {
     
 
     
-    .topA:hover {
-    
-        .price {
-            animation: fadeIn 1s ease-in-out forwards;
-            margin-right: 70px;
-        }
-    
-
-    }
     .ulbar i {
 
         margin-top: 23px;
