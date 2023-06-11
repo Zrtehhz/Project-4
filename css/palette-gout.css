@@ -94,8 +94,7 @@ h1 {
 
     background: #99E2D0;
     position: absolute;
-    padding: 24px;
-    right: 0px;
+    padding: 26px;    right: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     top: 0px;
@@ -110,6 +109,8 @@ h1 {
 .menu {
     display: flex;
     position: relative;
+    padding-bottom: 15px;
+
 }
 
 .title {
@@ -151,6 +152,201 @@ h1 {
 
 
 }
+.topB:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+.topC:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+
+.middleA:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+.middleB:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+.middleC:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+
+
+.bottomA:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+.bottomB:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
+.bottomC:hover {
+
+    .title {
+        text-overflow: ellipsis;
+    }
+    
+    .price {
+        top: 15px;
+        position: absolute;
+        right: 70px;
+        
+        
+        }
+
+
+    .check {
+        visibility: visible;
+        right: 0px;
+        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    }
+
+
+
+}
 
 
 
@@ -168,8 +364,31 @@ h1 {
     padding: 15px;
     padding-right: 5px;
     border-radius: 15px;
+    margin-bottom: 15px;
     animation-delay: 0s;
 }
+
+.topB {
+    border: 2px  ;
+    box-shadow: 2px 2px 15px 5px #00000021;
+    padding: 15px;
+    padding-right: 5px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    animation-delay: 0s;
+}
+
+
+.topC {
+    border: 2px  ;
+    box-shadow: 2px 2px 15px 5px #00000021;
+    padding: 15px;
+    padding-right: 5px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    animation-delay: 0s;
+}
+
 
 
 
@@ -177,8 +396,6 @@ h1 {
     font-size: medium;
     width: 85%;
 }
-
-
 .topB p, h3  {
     font-size: medium;
     width: 85%;
@@ -188,251 +405,71 @@ h1 {
     width: 85%;
 }
 
-.middleA p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.middleB p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.middleC p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-
-.bottomA p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.bottomB p, h3 {
-    font-size: medium;
-    width: 85%;
-}
-.bottomC p, h3 {
-    font-size: medium;
-    width: 97%;
-}
-
-
-.topA p {
-    display: flex;
-        font-size: smaller;
-
-}
-
-.topB {
-    border: 2px  ;
-    margin-top: 15px;
-    box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    animation-delay: 0.1s;
-}
-
-.topB p {
-    display: flex;
-        font-size: smaller;
-
-}
-
-.topB span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-    font-weight: 700;
-        line-height: 15px;
-}
-.topC{
-    border: 2px  ;
-    margin-top: 15px;
-    box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    border-radius: 15px;
-    animation-delay: 0.3s;
-}
-
-.topC p {
-    display: flex;
-        font-size: smaller;
-
-}
-
-.topC span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-    font-weight: 700;
-        line-height: 15px;
-}
-
-
 .middleA {
-    padding-bottom: 15px;
-    margin-top: 15px;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
 
-.middleA p {
-    display: flex;
-    font-size: 12.7px;
-}
-
-.middleA span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
 .middleB {
     border: 2px  ;
-    margin-top: 15px;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
 
-.middleB p {
-    display: flex;
-    font-size: smaller;
 
-}
-
-.middleB span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
-.middleC{
+.middleC {
     border: 2px  ;
-    margin-top: 15px;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
-
-.middleC p {
-    display: flex;
-    font-size: smaller;
-
-}
-
-.middleC span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
-
 
 
 .bottomA {
-    padding-bottom: 15px;
-    margin-top: 15px;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
-    font-weight: 200;
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
 
-.bottomA p {
-    display: flex;
-    font-size: smaller;
-
-}
-
-.bottomA span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
 .bottomB {
     border: 2px  ;
-    margin-top: 15px;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
-    font-weight: 200;
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
 
-.bottomB p {
-    display: flex;
-    font-size: smaller;
 
-}
-
-.bottomB span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
-
-.bottomC{
+.bottomC {
     border: 2px  ;
-    margin-top: 15px;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 5px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    padding: 15px;
+    padding-right: 5px;
     border-radius: 15px;
-    font-weight: 200;
-    width: 98%;
-
+    margin-bottom: 15px;
+    animation-delay: 0s;
 }
 
-.bottomC p {
-    display: flex;
-    font-size: smaller;
 
-}
 
-.bottomC span{
-    display: flex;
-    justify-content: end;
-    z-index: 5;
-    margin-top: -23px;
-        font-weight: 700;
-            line-height: 15px;
-
-}
 
 
 .command {
@@ -589,9 +626,6 @@ h1 {
     }
 
     
-    .bottomC {
-        width: 98.5%;
-    }
     .hr {width: 2%;
     }
     .divtop {
