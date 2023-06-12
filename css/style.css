@@ -93,6 +93,7 @@ h1 {
 .check {
 
     background: #99E2D0;
+    width: 15px;
     position: absolute;
     padding: 26px;
         right: 0px;
@@ -101,8 +102,41 @@ h1 {
     top: 0px;
     visibility: hidden;
     color: white;
+    animation-name: checkreverse;
+    animation-duration: 0.5s;
+    transition: all 0.5s;
 
 }
+
+.check:hover {
+    animation-name: checked;
+    animation-duration: 0.5s;
+    transition: all 0.5s;
+    visibility: visible;
+
+
+}
+
+
+@keyframes checkreverse {
+    from {
+        width: 0;
+    }
+    to {width: 15px;
+    }
+}
+
+@keyframes checked {
+    
+    from {
+        width: 15px;
+    }
+    to {
+        width: 0;
+    }
+}
+
+
 
 .menu {
     display: flex;
