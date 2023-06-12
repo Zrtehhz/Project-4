@@ -94,17 +94,15 @@ h1 {
 
     background: #99E2D0;
     position: absolute;
-    padding: 26px;    right: 0px;
+    padding: 26px;
+        right: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     top: 0px;
     visibility: hidden;
     color: white;
 
-
-    
 }
-
 
 .menu {
     display: flex;
@@ -146,7 +144,7 @@ h1 {
     .check {
         visibility: visible;
         right: 0px;
- 
+        transition: right 2s;
 
     }
 
