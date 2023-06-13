@@ -102,39 +102,23 @@ h1 {
     top: 0px;
     visibility: hidden;
     color: white;
-    animation-name: checkreverse;
-    animation-duration: 0.5s;
-    transition: all 0.5s;
-
+    transition-duration: 1s;
+    animation: Slide 2s 700ms 0 right forwards;
+    animation-duration: 1s;  
 }
 
-.check:hover {
-    animation-name: checked;
-    animation-duration: 0.5s;
-    transition: all 0.5s;
-    visibility: visible;
-
-
-}
-
-
-@keyframes checkreverse {
+@keyframes Slide {
     from {
-        width: 0;
+        right: 15px;
     }
-    to {width: 15px;
-    }
-}
 
-@keyframes checked {
-    
-    from {
-        width: 15px;
-    }
     to {
-        width: 0;
+        right: -15px;
+
     }
 }
+
+
 
 
 
@@ -178,8 +162,6 @@ h1 {
     .check {
         visibility: visible;
         right: 0px;
-        transition: right 2s;
-
     }
 
 
