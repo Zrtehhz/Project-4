@@ -150,6 +150,17 @@ position: relative;    display: flex;
     position: absolute;
     color: black;
 }
+.iconecard1-hider {
+    display: flex;
+    padding-right: 15px;
+    justify-content: end;
+    margin-top: -55px;
+        bottom: 5px;
+    right: 18px;
+    font-size: 30px;
+    position: absolute;
+    color: black;
+}
 
 
 
@@ -165,6 +176,17 @@ position: relative;    display: flex;
     color: black;
 
 }
+.iconecard2-hider {
+    display: flex;
+    padding-right: 15px;
+    justify-content: end;
+    margin-top: -55px;
+        bottom: 5px;
+    right: 18px;
+    font-size: 30px;
+    position: absolute;
+    color: black;
+}
 
 .iconecard3 {
     display: flex;
@@ -178,6 +200,17 @@ position: relative;    display: flex;
     color: black;
 
 }
+.iconecard3-hider {
+    display: flex;
+    padding-right: 15px;
+    justify-content: end;
+    margin-top: -55px;
+        bottom: 5px;
+    right: 18px;
+    font-size: 30px;
+    position: absolute;
+    color: black;
+}
 .iconecard4 {
     display: flex;
     padding-right: 15px;
@@ -189,6 +222,17 @@ position: relative;    display: flex;
     position: absolute;
     color: black;
 
+}
+.iconecard4-hider {
+    display: flex;
+    padding-right: 15px;
+    justify-content: end;
+    margin-top: -55px;
+        bottom: 5px;
+    right: 18px;
+    font-size: 30px;
+    position: absolute;
+    color: black;
 }
 
 

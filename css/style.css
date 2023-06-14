@@ -66,6 +66,7 @@
 }
 
 
+
 .articlepalette .linkpalette i:hover {
         -webkit-background-clip: text;
         font-weight: 700;
@@ -91,276 +92,207 @@ h1 {
 
 /**************/
 .check {
-
     background: #99E2D0;
     width: 15px;
     position: absolute;
     padding: 26px;
-        right: 0px;
+    right: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     top: 0px;
     visibility: hidden;
     color: white;
-    animation-duration: 1s;  
-    transition: ease-out right 1s;
-    animation: Slide 2s linear ;
+    animation-duration: 1s;
+    transition: right 0.3s ease-in-out linear forwards;
+
 }
-
-@keyframes Slide {
-    0% {
-        right: 0px;
-    }
-
-    100%     {
-        right: 15px;
-
-    }
-}
-
-
-
-
 
 .menu {
     display: flex;
     position: relative;
     padding-bottom: 15px;
-
 }
 
 .title {
     width: 80%;
 }
+
 .price {
     margin-top: 7px;
-        width: 20%;
+    width: 20%;
     text-align: right;
 }
-
 
 .menu span {
     font-weight: 700;
 }
 
-
-.topA:hover {
-
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-
-    }
-
-}
-.topB:hover {
-
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
-}
-.topC:hover {
-
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
+.topA:hover .title {
+    text-overflow: ellipsis;
 }
 
-.middleA:hover {
-
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
+.topA:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
 }
-.middleB:hover {
 
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
+.topA:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
 }
-.middleC:hover {
 
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
+.topB:hover .title {
+    text-overflow: ellipsis;
+}
 
+.topB:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
 
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
+.topB:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}.topC:hover .title {
+    text-overflow: ellipsis;
+}
 
+.topC:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
 
-
+.topC:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
 }
 
 
-.bottomA:hover {
-
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
 
 
 
+
+
+
+
+
+
+.middleA:hover .title {
+    text-overflow: ellipsis;
 }
-.bottomB:hover {
 
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
+.middleA:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
 }
-.bottomC:hover {
 
-    .title {
-        text-overflow: ellipsis;
-    }
-    
-    .price {
-        top: 15px;
-        position: absolute;
-        right: 70px;
-        
-        
-        }
-
-
-    .check {
-        visibility: visible;
-        right: 0px;
-        transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    }
-
-
-
+.middleA:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
 }
+
+.middleB:hover .title {
+    text-overflow: ellipsis;
+}
+
+.middleB:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+.middleB:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+
+.middleC:hover .title {
+    text-overflow: ellipsis;
+}
+
+.middleC:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+.middleC:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+
+
+
+
+
+.bottomA:hover .title {
+    text-overflow: ellipsis;
+}
+
+.bottomA:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+.bottomA:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+.bottomB:hover .title {
+    text-overflow: ellipsis;
+}
+
+.bottomB:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+.bottomB:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+.bottomC:hover .title {
+    text-overflow: ellipsis;
+}
+
+.bottomC:hover .price {
+    top: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+.bottomC:hover .check {
+    visibility: visible;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -598,6 +530,9 @@ h1 {
 
     list-style: none;
     padding: 0;
+    flex-direction: column-reverse;
+    display: flex;
+    /* align-items: center; */
     margin: 0;
 
 }
