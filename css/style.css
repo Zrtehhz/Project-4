@@ -102,18 +102,18 @@ h1 {
     top: 0px;
     visibility: hidden;
     color: white;
-    transition-duration: 1s;
-    animation: Slide 2s 700ms 0 right forwards;
     animation-duration: 1s;  
+    transition: ease-out right 1s;
+    animation: Slide 2s linear ;
 }
 
 @keyframes Slide {
-    from {
-        right: 15px;
+    0% {
+        right: 0px;
     }
 
-    to {
-        right: -15px;
+    100%     {
+        right: 15px;
 
     }
 }
@@ -162,9 +162,8 @@ h1 {
     .check {
         visibility: visible;
         right: 0px;
+
     }
-
-
 
 }
 .topB:hover {
