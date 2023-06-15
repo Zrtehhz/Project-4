@@ -683,6 +683,7 @@ font-size: large;
     margin-top: 65px;
     border-radius: 15px;
     margin-left: 9px;
+    position: relative;
 }
 
 .restaucard2  img{
@@ -1210,10 +1211,6 @@ font-size: large;
     }
 
 
-    .new2 {
-        position: absolute;
-        right: 255px;
-    }
 
     .global{
         display: flex;
