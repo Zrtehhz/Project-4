@@ -7,6 +7,12 @@
 
 
 
+.fonctionnement h2 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
 .ulbar i {
 
     margin-top: 10px;
@@ -92,6 +98,7 @@ h1 {
 
 /**************/
 .check {
+    overflow: hidden;
     background: #99E2D0;
     width: 15px;
     position: absolute;
@@ -109,12 +116,12 @@ h1 {
 
 @keyframes slide-left-animation {
     0% {
-      transform: translateX(0px);
-      opacity: 0;
+      transform: translateX(67px);
+      visibility: hidden;
     }
-     100% {
-      transform: translateX(width(-15px));
-      opacity: 1;
+     50% {
+      transform: translateX(0px);
+        visibility: visible;
     }
   }
 
@@ -145,14 +152,15 @@ h1 {
 .topA:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+    right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
+
 }
 
 .topA:hover .check {
     visibility: visible;
     right: 0;
-    animation: 0.7s slide-left-animation ease-in-out forwards;
-    animation-duration: 1s;
+    animation: 0.95s slide-left-animation ease-in-out forwards;     
 
 }
 
@@ -163,14 +171,14 @@ h1 {
 .topB:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .topB:hover .check {
     visibility: visible;
     right: 0;
-    animation: 0.7s slide-left-animation ease-in-out forwards;
-    animation-duration: 1s;
+    animation: 0.95s slide-left-animation ease-in-out forwards; 
 }.topC:hover .title {
     text-overflow: ellipsis;
 }
@@ -178,14 +186,14 @@ h1 {
 .topC:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .topC:hover .check {
     visibility: visible;
     right: 0;
-    animation: 0.7s slide-left-animation ease-in-out forwards;
-    animation-duration: 1s;
+    animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 
@@ -205,13 +213,14 @@ h1 {
 .middleA:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .middleA:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 .middleB:hover .title {
@@ -221,13 +230,14 @@ h1 {
 .middleB:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .middleB:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 
@@ -238,13 +248,14 @@ h1 {
 .middleC:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .middleC:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 
@@ -259,13 +270,14 @@ h1 {
 .bottomA:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .bottomA:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 .bottomB:hover .title {
@@ -275,13 +287,14 @@ h1 {
 .bottomB:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .bottomB:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 .bottomC:hover .title {
@@ -291,13 +304,14 @@ h1 {
 .bottomC:hover .price {
     top: 15px;
     position: absolute;
-    right: 70px;
+        right: 75px;
+    animation: 0.95s slide-left-animation ease-in-out forwards;
 }
 
 .bottomC:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+        animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
 
@@ -320,9 +334,11 @@ h1 {
 }
 
 .topA {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -330,9 +346,11 @@ h1 {
 }
 
 .topB {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -341,9 +359,11 @@ h1 {
 
 
 .topC {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -367,9 +387,11 @@ h1 {
 }
 
 .middleA {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -377,9 +399,11 @@ h1 {
 }
 
 .middleB {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -388,9 +412,11 @@ h1 {
 
 
 .middleC {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -399,9 +425,11 @@ h1 {
 
 
 .bottomA {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -409,9 +437,11 @@ h1 {
 }
 
 .bottomB {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -420,9 +450,11 @@ h1 {
 
 
 .bottomC {
+    position: relative;
+    overflow: hidden;
     border: 2px  ;
     box-shadow: 2px 2px 15px 5px #00000021;
-    padding: 15px;
+    padding: 14px;
     padding-right: 5px;
     border-radius: 15px;
     margin-bottom: 15px;
@@ -521,14 +553,17 @@ h1 {
 
 
 /****Footer****/
-
-.footer { 
+footer { 
+    position: relative;
     background-color: rgb(44, 44, 44);
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer .footercontainer {
     display: flex;
+    position: relative;
+
     flex-direction: column;
     padding: 1px;
 }
@@ -538,17 +573,15 @@ h1 {
     font-size: larger ;
     color: white;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    vertical-align: top;
+    
 }
 
 .footer-liste {
-
     list-style: none;
-    padding: 0;
-    flex-direction: column-reverse;
-    display: flex;
-    /* align-items: center; */
-    margin: 0;
+
+    
 
 }
 .listebottom {
@@ -557,13 +590,10 @@ h1 {
     text-align: start;
 }
 .listebottom1 {
-    display: flex;
-    flex-direction: column-reverse;
     margin: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: start;
 }
-
 
 .listeAbottom {
     color: #fff;
@@ -574,6 +604,7 @@ h1 {
 .listeAbottom i {
     padding-right: 15px;
 }
+
 
 @media screen and (min-width: 1024px){
     .divtop {
@@ -693,9 +724,19 @@ h1 {
     position: absolute;
 color: #000;
 }
+
+
 .footer-liste {
     display: flex;
-    margin-left: auto;
     gap: 15px;
+    justify-content:flex-end;
+    right: 25px;
+}
+
+.footer .footercontainer {
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    padding: 1px;
 }
 }
