@@ -1096,6 +1096,7 @@ font-size: large;
     }
     .fonctionnement h2 {
         position: absolute;
+        left: 255px;
     }
 
     .buttonfonctionnement {
@@ -1211,7 +1212,7 @@ font-size: large;
 
     .new2 {
         position: absolute;
-        right: 165px;
+        right: 255px;
     }
 
     .global{
