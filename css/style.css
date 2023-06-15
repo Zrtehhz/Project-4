@@ -102,10 +102,21 @@ h1 {
     top: 0px;
     visibility: hidden;
     color: white;
-    animation-duration: 1s;
-    transition: right 0.3s ease-in-out linear forwards;
 
 }
+
+
+
+@keyframes slide-left-animation {
+    0% {
+      transform: translateX(0px);
+      opacity: 0;
+    }
+     100% {
+      transform: translateX(width(-15px));
+      opacity: 1;
+    }
+  }
 
 .menu {
     display: flex;
@@ -140,7 +151,9 @@ h1 {
 .topA:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+    animation: 0.7s slide-left-animation ease-in-out forwards;
+    animation-duration: 1s;
+
 }
 
 .topB:hover .title {
@@ -156,7 +169,8 @@ h1 {
 .topB:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+    animation: 0.7s slide-left-animation ease-in-out forwards;
+    animation-duration: 1s;
 }.topC:hover .title {
     text-overflow: ellipsis;
 }
@@ -170,7 +184,8 @@ h1 {
 .topC:hover .check {
     visibility: visible;
     right: 0;
-    transition: right 0.3s ease;
+    animation: 0.7s slide-left-animation ease-in-out forwards;
+    animation-duration: 1s;
 }
 
 
