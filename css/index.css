@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    animation-delay: 15s;
+    animation-delay: 3s;
     position: fixed;
     z-index: 15;
     background-color: white;
