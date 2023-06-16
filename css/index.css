@@ -1096,8 +1096,10 @@ font-size: large;
         font-size: 24px;
     }
     .fonctionnement h2 {
-        position: absolute;
-        left: 255px;
+    /* position: absolute; */
+    /* left: 255px; */
+    display: flex;
+    margin-left: 185px;
     }
 
     .buttonfonctionnement {
@@ -1106,8 +1108,7 @@ font-size: large;
         width: 20%;
         height: 72.38px;
         gap: 10px;
-        background-color: #ffffff;
-
+        background-color: #ffffff;  
          position: relative;
          align-items: center;
 
