@@ -129,6 +129,7 @@ h1 {
     display: flex;
     position: relative;
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 .title {
@@ -139,8 +140,15 @@ h1 {
     
 }
 
-.title:hover p {
+.title:hover p{
     max-width: 70%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title:hover h3{
+    max-width: 75%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
