@@ -141,14 +141,14 @@ h1 {
 }
 
 .title:hover p{
-    max-width: 75%;
+    max-width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
 .title:hover h3{
-    max-width: 75%;
+    max-width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -165,6 +165,7 @@ h1 {
 }
 
 .topA:hover .title {
+    max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -186,7 +187,10 @@ h1 {
 }
 
 .topB:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .topB:hover .price {
@@ -201,7 +205,10 @@ h1 {
     right: 0;
     animation: 0.95s slide-left-animation ease-in-out forwards; 
 }.topC:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .topC:hover .price {
@@ -228,7 +235,10 @@ h1 {
 
 
 .middleA:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .middleA:hover .price {
@@ -245,7 +255,10 @@ h1 {
 }
 
 .middleB:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .middleB:hover .price {
@@ -263,7 +276,10 @@ h1 {
 
 
 .middleC:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .middleC:hover .price {
@@ -285,7 +301,10 @@ h1 {
 
 
 .bottomA:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .bottomA:hover .price {
@@ -302,7 +321,10 @@ h1 {
 }
 
 .bottomB:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .bottomB:hover .price {
@@ -319,7 +341,10 @@ h1 {
 }
 
 .bottomC:hover .title {
+    max-width: 70%;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .bottomC:hover .price {
