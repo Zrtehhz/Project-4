@@ -133,6 +133,17 @@ h1 {
 
 .title {
     width: 80%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+.title:hover p {
+    max-width: 70%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .price {
@@ -146,7 +157,9 @@ h1 {
 }
 
 .topA:hover .title {
+    white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .topA:hover .price {
