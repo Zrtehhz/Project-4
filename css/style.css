@@ -130,6 +130,7 @@ h1 {
     position: relative;
     padding-bottom: 15px;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .title {
@@ -140,14 +141,14 @@ h1 {
     
 }
 
-.title:hover p{
+.menu:hover p{
     max-width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.title:hover h3{
+.menu:hover h3{
     max-width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -164,7 +165,7 @@ h1 {
     font-weight: 700;
 }
 
-.topA:hover .title {
+.topA:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -186,7 +187,7 @@ h1 {
 
 }
 
-.topB:hover .title {
+.topB:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -204,7 +205,7 @@ h1 {
     visibility: visible;
     right: 0;
     animation: 0.95s slide-left-animation ease-in-out forwards; 
-}.topC:hover .title {
+}.topC:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -234,7 +235,7 @@ h1 {
 
 
 
-.middleA:hover .title {
+.middleA:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -254,7 +255,7 @@ h1 {
         animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
-.middleB:hover .title {
+.middleB:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -275,7 +276,7 @@ h1 {
 }
 
 
-.middleC:hover .title {
+.middleC:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -300,7 +301,7 @@ h1 {
 
 
 
-.bottomA:hover .title {
+.bottomA:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -320,7 +321,7 @@ h1 {
         animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
-.bottomB:hover .title {
+.bottomB:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -340,7 +341,7 @@ h1 {
         animation: 0.95s slide-left-animation ease-in-out forwards; 
 }
 
-.bottomC:hover .title {
+.bottomC:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
