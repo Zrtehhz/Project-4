@@ -6,12 +6,7 @@
 }
 
 
-
-.fonctionnement h2 {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
+/*Partie top section*/
 
 .ulbar i {
 
@@ -96,7 +91,9 @@ h1 {
     border-radius: 50%;
 }
 
-/**************/
+
+
+/*Partie check*/
 .check {
     overflow: hidden;
     background: #99E2D0;
@@ -124,6 +121,9 @@ h1 {
         visibility: visible;
     }
   }
+
+/*Partie Menu / title / price */
+
 
 .menu {
     display: flex;
@@ -205,7 +205,8 @@ h1 {
     visibility: visible;
     right: 0;
     animation: 0.95s slide-left-animation ease-in-out forwards; 
-}.topC:hover .menu {
+}
+.topC:hover .menu {
     max-width: 70%;
     white-space: nowrap;
     text-overflow: ellipsis;
