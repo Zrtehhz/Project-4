@@ -790,5 +790,6 @@ color: #000;
 justify-content: center;
     flex-direction: column-reverse;
     padding: 1px;
+    margin-right: 65px;
 }
 }
